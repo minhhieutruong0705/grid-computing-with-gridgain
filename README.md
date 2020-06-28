@@ -1,6 +1,6 @@
 # GridGain - Ignite
 
-- This project provides the guide for installation, setup and execution of examples of grid computing application using an available framework [GridGian](https://www.gridgain.com/)
+- This project provides the guide for installation, setup and execution of grid computing applications (examples) using an available framework [GridGian](https://www.gridgain.com/)
 - This project uses *Community Edition* of Gridgain and provides only the applications of **Compute Grid**. *Data Grid* and *Management Grid* are not mentioned.
 - The examples includes:
   1. Broadcasting a task between nodes
