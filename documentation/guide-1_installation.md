@@ -8,27 +8,44 @@
 
 ## Installation Steps
 1. Install JDK (at least version 8)
+
 $> `sudo apt-get update`
+
 $> `sudo apt install openjdk-8-jdk`
+
 2. Set `JAVA_HOME` environment variable
+
 $> `sudo nano ~/.bashrc`
+
 add the following to the end of the `.bashrc` file
+
 ```
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=/usr/lib/jvm/java-8-openjdk-amd64/bin:$PATH
 ```
+
 $> `source ~/.bashrc`
+
 3. Download the `GridGain Binary` as a zip archive (download link given above - Community Edition)
+
 4. Unzip the zip archive into the installation folder in your system
+
 $> `unzip -q gridgain-{edition}-{version}.zip`
+
 5. Move the `ignite-rest-http` folder from `{gridgain}/libs/optional` to `{gridgain}/libs`
+
 $> `mv -t {gridgain}/libs/ignite-rest-http {gridgain}/libs/optional/ignite-rest-http`
+
 6. Set `IGNITE_HOME` environment variable
+
 $> `sudo nano ~/.bashrc`
+
 add the following to the end of the `.bashrc` file
+
 ```
 export IGNITE_HOME={gridgain}
 ```
+
 $> `source ~/.bashrc`
 
 - Note for those who wants to use GridGain with Java 11 or later:

@@ -7,5 +7,5 @@
 - Each node does exactly the same task
 
 ## Source Code
-[BroadcastTask.java](../application-examples/Broadcast.java)
+[BroadcastTask.java](../application-examples/BroadcastTask.java)
 
