@@ -1,4 +1,4 @@
-# GridGain - Ignite 
+# GridGain - Ignite - Broadcast Method
 # Broadcast Task of printing "Hello World"
 
 ## Description

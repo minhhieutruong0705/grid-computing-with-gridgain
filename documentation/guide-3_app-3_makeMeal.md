@@ -1,4 +1,4 @@
-# GridGain - Ignite 
+# GridGain - Ignite - Run Method
 # Distribute a big task to nodes - different sub-tasks
 
 ## Description
